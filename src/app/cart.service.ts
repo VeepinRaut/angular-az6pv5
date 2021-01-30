@@ -6,6 +6,7 @@ export class CartService {
 
   addToCart(product){
     this.items.push(product);
+    console.log(this.items);
   }
 
   getItems(){
